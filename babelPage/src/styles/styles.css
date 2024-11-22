@@ -1,0 +1,197 @@
+/* Menubar principal */
+.menubar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+/* Estilo para las opciones en menubar */
+.options {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+/* Estilo de los enlaces dentro de las opciones */
+.options a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px; /* Ajuste para que los links no se vean comprimidos */
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Estilo para las imágenes (logo) */
+img {
+    height: 40px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .menubar {
+        flex-direction: column; /* Pone los elementos en columna */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+
+    .options {
+        flex-direction: column; /* Muestra los links uno debajo de otro */
+        gap: 10px; /* Reduce el espacio entre los elementos */
+        padding-left: 20px; /* Agrega espacio a la izquierda */
+    }
+
+    .options a {
+        font-size: medium; /* Ajusta el tamaño del texto para pantallas pequeñas */
+        padding: 8px 0; /* Espaciado más pequeño */
+    }
+}
+
+/* Media Query para pantallas más grandes (a partir de 992px) */
+@media (min-width: 992px) {
+    .menubar {
+        flex-direction: row; /* Asegura que se mantenga en fila en pantallas grandes */
+        justify-content: center; /* Centra los elementos */
+    }
+
+    .options {
+        flex-direction: row; /* Los enlaces se mantienen en una fila */
+        gap: 20px; /* Espacio mayor entre los elementos */
+    }
+}
+
+.contenedor_portada {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 600px;
+}
+
+.portada {
+    width: 100%;
+    height: 100%;
+}
+
+.colaboradores {
+    text-align: center;
+    background-color: #1f2839;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    padding: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flexbox;
+    /* Usamos Flexbox para centrar */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    min-height: 5vh;
+    /* Altura mínima del contenedor para ocupar toda la pantalla */
+    background-color: #3e4d64;
+    /* Fondo para resaltar el contenido */
+}
+
+.logoTable {
+    display: flex;
+    display: grid;
+    /* Usamos grid para el diseño en columnas */
+    grid-template-columns: repeat(5, 1fr);
+    /* Tres columnas */
+    gap: 20px;
+    /* Espaciado entre elementos */
+    list-style: none;
+    /* Eliminar los puntos de la lista */
+    padding: 0;
+    /* Eliminar padding predeterminado de ul */
+    margin: 0;
+    /* Eliminar margen predeterminado de ul */
+}
+
+.logoTable li {
+    display: flexbox;
+    text-align: center;
+    /* Centrar el contenido dentro de cada celda */
+    border: 1px solid #ddd;
+    /* Borde alrededor de cada elemento */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    padding: 10px;
+    /* Espaciado interno */
+    background-color: #f9f9f9;
+    /* Fondo claro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+}
+
+.logoTable img {
+    max-width: 100px;
+    /* Controlar el tamaño máximo del logo */
+    height: 85px;
+    /* Mantener proporciones */
+    margin-bottom: 10px;
+    /* Espaciado entre el logo y el texto */
+}
+
+.logoTable p {
+    font-size: 16px;
+    /* Tamaño de letra */
+    color: #333;
+    /* Color del texto */
+    margin: 0;
+    /* Eliminar márgenes predeterminados */
+    font-weight: 600;
+    /* Texto semi-negrita */
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .logoTable {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        /* En pantallas medianas, las columnas se ajustan a 150px como mínimo */
+    }
+
+    .logoTable li {
+        padding: 15px;
+        /* Un poco más de padding para mejor visibilidad en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .logoTable {
+        grid-template-columns: 1fr;
+        /* En pantallas muy pequeñas, mostrar una sola columna */
+    }
+}
+
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6);
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Microsoft",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png"
+  },
+  {
+    "name": "Apple",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/120px-Apple_logo_black.svg.png"
+  },
+  {
+    "name": "Google",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
+  },
+  {
+    "name": "Amazon",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+  },
+  {
+    "name": "Tesla",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png"
+  },
+  {
+    "name": "Netflix",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+  },
+  {
+    "name": "Facebook",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+  },
+  {
+    "name": "Twitter",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/140px-X_logo_2023.svg.png"
+  },
+  {
+    "name": "Spotify",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/250px-Spotify_logo_with_text.svg.png"
+  },
+  {
+    "name": "Uber",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/320px-Uber_logo_2018.svg.png"
+  }
+]
