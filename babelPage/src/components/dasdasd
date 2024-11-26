@@ -1,0 +1,15 @@
+        <div>
+            <header>
+                <div className="menubar">
+                    <Link to={'/'}><img src={logoBabel} alt="Logo Babel"></img></Link>
+                    <ul className="options">
+                        <Link to={'/services'}>SERVICIOS</Link>
+                        <Link to={'/clients'}>CLIENTES</Link>
+                        <Link to={'/quote_tool'}>COTIZADOR</Link>
+                        <Link to={'/weknow'}>CONTACTO</Link>
+                        <Link to={'/weknow'}>CONÓCENOS</Link>
+                    </ul>
+                </div>
+            </header>
+            <main>{children}</main> {/* Esto es importante */}
+        </div>

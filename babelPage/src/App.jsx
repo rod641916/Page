@@ -7,6 +7,8 @@ import Services from './pages/Services'
 import Clients from './pages/Clients';
 import QuoteTool from './pages/QuoteTool';
 import Contact from './pages/Contact'
+import Sectors from './pages/Sectors';
+
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/clients" element={<Clients />} />
           <Route path="/quote_tool" element={<QuoteTool />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/sectors" element={<Sectors />} />
         </Routes>
       </Layout>
     </BrowserRouter >

@@ -1,4 +1,5 @@
-[
+{
+"clients":[
   {
     "name": "Microsoft",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png"
@@ -39,4 +40,47 @@
     "name": "Uber",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/320px-Uber_logo_2018.svg.png"
   }
-]
+],
+    "sectors":[
+      {
+        "name_es": "Jurídico",
+        "name_en": "Legal",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Médico/Farma",
+        "name_en": "Medic/ Pharma",
+        "icon": "https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/external-care-prevention-and-care-color-line-others-cattaleeya-thongsriphong.png"
+      },
+      {
+        "name_es": "Financiero",
+        "name_en": "Financial",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Tecnología",
+        "name_en": "Technology",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Seguros",
+        "name_en": "Insurance",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Turismo",
+        "name_en": "Tourism",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Infraestructura",
+        "name_en": "Infrastructure",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      },
+      {
+        "name_es": "Energético",
+        "name_en": "Energetic",
+        "icon": "https://img.icons8.com/fluency/48/scales.png"
+      }
+    ]
+  }
