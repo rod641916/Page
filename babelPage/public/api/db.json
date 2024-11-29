@@ -55,32 +55,32 @@
       {
         "name_es": "Financiero",
         "name_en": "Financial",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/cotton/64/card-exchange.png"
       },
       {
         "name_es": "Tecnología",
         "name_en": "Technology",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/cotton/64/computer.png"
       },
       {
         "name_es": "Seguros",
         "name_en": "Insurance",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/cotton/64/lifecycle--v1.png"
       },
       {
         "name_es": "Turismo",
         "name_en": "Tourism",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/cotton/64/suitcase.png"
       },
       {
         "name_es": "Infraestructura",
         "name_en": "Infrastructure",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/cotton/64/skyscrapers.png"
       },
       {
         "name_es": "Energético",
         "name_en": "Energetic",
-        "icon": "https://img.icons8.com/fluency/48/scales.png"
+        "icon": "https://img.icons8.com/pastel-glyph/64/green-energy.png"
       }
     ]
   }

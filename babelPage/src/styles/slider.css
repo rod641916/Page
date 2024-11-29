@@ -1,0 +1,44 @@
+/* Contenedor del slider */
+.slider {
+    width: 100%;                  /* Ocupa todo el ancho disponible */
+    height: 150px;                /* Altura fija para que las imágenes no se expandan más de lo necesario */
+    margin: 10px;
+    overflow: hidden;             /* Oculta las partes de las imágenes que se salen del contenedor */
+}
+
+/* Contenedor de las imágenes */
+.slider .slider-track {
+    display: flex;                /* Alinea las imágenes en línea */
+    animation: scroll 40s linear infinite;  /* Animación para el desplazamiento horizontal */
+    width: calc(200px * 14);       /* Necesario para calcular el ancho total del contenido */
+}
+
+/* Cada imagen del slider */
+.slider .slide {
+    width: 200px;                 /* Mantén un tamaño constante para cada imagen */
+    flex-shrink: 0;               /* Impide que las imágenes se achiquen */
+    margin-right: 20px;
+}
+
+.slider .slide:last-child {
+    margin-right: 0;
+}
+
+/* Estilo de la imagen para evitar distorsión */
+.slider .slide img {
+    width: 100%;                  /* Ocupa el 100% del contenedor */
+    height: 100%;                 /* Asegura que no se estiren verticalmente */
+    object-fit: contain;          /* Ajusta la imagen manteniendo su aspecto */
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7)); /* Mueve el contenido hacia la izquierda */
+        transform: translateX(calc(-200px * 7)); /* Mueve el contenido hacia la izquierda */
+    }
+}
