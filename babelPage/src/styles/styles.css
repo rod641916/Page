@@ -11,6 +11,7 @@
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 999;
+    font-family: "Exo 2", sans-serif;
 }
 
 /* Estilo para las opciones en menubar */
@@ -20,6 +21,7 @@
     margin: 0;
     padding: 0;
     gap: 20px;
+    font-family: "Exo 2", sans-serif;
 }
 
 /* Estilo de los enlaces dentro de las opciones */
@@ -175,20 +177,23 @@ ul {
 
 
 .split-section {
-    background-color: #f8f9fa;
+    background-color: white;
     /* Fondo suave */
 }
 
 .text-content {
     padding: 0px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    max-width: 80%;
 }
 
 .image-content img {
     object-fit: cover;
     /* Evita la distorsión */
-    max-height: 400px;
+    max-height: 300px;
     /* Limita la altura máxima */
-    width: 100%;
+    width: 90%;
     /* Asegura que ocupe el ancho completo del contenedor */
     border-radius: 10px;
     /* Esquinas redondeadas */
@@ -198,5 +203,71 @@ ul {
     .image-content img {
         max-height: 250px;
         /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+        margin-top: 20px;
     }
+}
+
+
+body .custom-font {
+    font-family: "Exo 2", sans-serif;
+}
+
+
+
+.custom-image {
+    width: 100%;
+    /* Por defecto, ocupa todo el ancho */
+    max-width: 800px;
+    /* Límite máximo en pantallas grandes */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    max-height: 500px;
+    /* Límite máximo de altura */
+}
+
+@media (min-width: 768px) {
+    .custom-image {
+        max-width: 900px;
+        /* Límite ajustado en pantallas medianas */
+        max-height: 600px;
+        /* Ajusta la altura máxima */
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-image {
+        max-width: 700px;
+        /* Más pequeño en pantallas extra grandes */
+        max-height: 400px;
+        /* Ajusta la altura máxima */
+    }
+}
+
+
+
+/* Configurar el contenedor principal para que ocupe todo el viewport */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Asegura que el contenedor ocupe el viewport completo */
+}
+
+main {
+    flex-grow: 1;
+    /* El contenido principal ocupa el espacio disponible */
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
